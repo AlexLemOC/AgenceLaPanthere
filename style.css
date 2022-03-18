@@ -802,9 +802,9 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+/*.bgc-dark-slate-blue {
     background-color: #364577;
-}
+}*/
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -864,7 +864,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1159,4 +1159,39 @@ h4 {
     .img-desc{
         font-size: 16px;
     }
+    .P2H1{
+        font-size: 46px;
+        color: white!important;
+        padding-bottom: 20px;
+    }
+    
+    .P2H2{
+        font-size: 30px;
+        color: white!important;
+    }
+    .adresse{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
+@media screen and (max-width: 1023px) {
+    .P2H1{
+        font-size: 20px;
+        color: white!important;
+    }
+    
+    .P2H2{
+        font-size: 18px;
+        color: white!important;
+    }
+    .adresse{
+        font-size: 12px;
+    }
+}
+
+#input_504{
+    display: none;
+}
+

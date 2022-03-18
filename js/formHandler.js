@@ -80,3 +80,6 @@ $(function()
 	 	return path
 	 }
 });
+
+function show() { document.getElementById('input_504').style.display = 'block'; }
+function hide() { document.getElementById('input_504').style.display = 'none'; }
