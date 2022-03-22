@@ -1238,6 +1238,8 @@ h4 {
 .whiteBox {
     font-size: 16px;
     padding: 0 45px 0 45px;
+    text-transform: none;
+    font-weight: 400;
 }
 
 .formTitle {
@@ -1266,4 +1268,8 @@ h4 {
 
 .socialLogo:hover{
     transform: scale(1.3);
+}
+
+.titlePan{
+    background-color: #11ffee00;
 }
