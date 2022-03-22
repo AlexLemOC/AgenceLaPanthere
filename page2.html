@@ -90,9 +90,9 @@ Analytics END -->
 				<fieldset>
 				<form id="form_1" novalidate>
 					<div class="form-group">
-						<div class="formTitle">
+						<legend class="formTitle">
 							Veuillez renseigner ce petit questionnaire : 
-						</div>
+						</legend>
 						<label for="name">
 							Nom
 						</label>
@@ -105,10 +105,10 @@ Analytics END -->
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label for="known-how input_504">
+						<label for="radio">
 							Comment avez-vous entendu parlé de nous ?
 						</label>
-						<div class="radio-box">
+						<div class="radio-box" id="radio">
 							<input type="radio" name="known-how" id="know-how" value="Publicité" onclick="hide()"> Publicité<br>
 							<input type="radio" name="known-how" id="know-how" value="Bouche-oreille" onclick="hide()"> Le bouche à oreille<br>
 							<input type="radio" name="known-how" id="know-how" value="Connaissance" onclick="hide()"> Par une connaissance<br>
