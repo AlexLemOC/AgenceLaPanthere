@@ -87,33 +87,36 @@ Analytics END -->
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate>
 					<div class="form-group">
-						<label>
+						<div class="formTitle">
+							Veuillez renseigner ce petit questionnaire : 
+						</div>
+						<label for="name">
 							Nom
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
+						<label for="known-how">
+							Comment avez-vous entendu parlé de nous ?
 						</label>
 						<div class="radio-box">
 							<input type="radio" name="known-how" value="Publicité" onclick="hide()"> Publicité<br>
 							<input type="radio" name="known-how" value="Bouche-oreille" onclick="hide()"> Le bouche à oreille<br>
 							<input type="radio" name="known-how" value="Connaissance" onclick="hide()"> Par une connaissance<br>
 							<input class="radio-otherON" type="radio" name="known-how" value="Autre" onclick="show()"> Autre<br>
-							<input class="form-control hiding" type="text" required id="input_504" value="Autre"/>
+							<input class="form-control hiding" type="text" required id="input_504" value="Précisez..."/>
 						</div>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
@@ -123,9 +126,16 @@ Analytics END -->
 				</form>
 			</div>
 			<div class="col-sm-6">
+				<div class="adressTitle">
+					Nos coordonnées : 
+				</div>
 				<h3 class="adresse">
 					contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</h3>
+				<iframe id="GoogleMap" title="Coordonnées" width="300" height="200"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1391.5428289716451!2d4.829378729014079!3d45.76947356302981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Pl.%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1647952077800!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy">
+
+				</iframe>
 			</div>
 		</div>
 	</div>
@@ -148,34 +158,35 @@ Analytics END -->
 				<div class="icon-display">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="page2.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="https://twitter.com/?lang=fr"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="page2.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://www.facebook.com"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="page2.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="https://dribbble.com"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="page2.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://www.instagram.com/?hl=fr"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-4 partenaires">
-						Partenaires
-							<ul>
-								<li><a href="voiture.com">voiture.com</a></li>
+						<div class="partner">Partenaires
+							<ul class="partnerLI">
 								<li><a href="pizza.com">pizza.com</a></li>
+								<li><a href="voiture.com">voiture.com</a></li>
 								<li><a href="matoiture.com">matoiture.com</a></li>
 								<li><a href="immobilierseo.com">immobilierseo.com</a></li>
-							</ul>		
+							</ul>
+						</div>		
 					</div>
 					<div class="d-dwn col-sm-4">
 						<button class="d-btn">Annuaire SEO</button>

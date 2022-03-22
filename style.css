@@ -890,13 +890,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -914,10 +914,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /*.bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    }*/
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -926,8 +926,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);*/
     }
 }
 
@@ -1174,6 +1174,23 @@ h4 {
         justify-content: center;
         align-items: center;
     }
+    .partner{
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .partnerLI{
+        font-size: 16px;
+    }
+    .adressTitle{
+        padding-left: 70px;
+        padding-bottom: 30px;
+    }
+    #GoogleMap{
+        padding-left: 70px;
+        width: 600px;
+        height: 390px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -1189,9 +1206,55 @@ h4 {
     .adresse{
         font-size: 12px;
     }
+    .partenaires{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        margin-bottom: -20px;
+    }
+    .partner{
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .partnerLI{
+        font-size: 16px;
+    }
+    .adressTitle{
+        padding-bottom: 0;
+        padding-left: 10px;
+    }
+    #GoogleMap{
+        padding-left: 10px;
+        padding-bottom: 0;
+        margin-bottom: -30px;
+    }
 }
 
 #input_504{
     display: none;
 }
 
+.whiteBox {
+    font-size: 16px;
+    padding: 0 45px 0 45px;
+}
+
+.formTitle {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    text-decoration-line: underline;
+}
+
+.adressTitle {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration-line: underline;
+}
+
+#GoogleMap{
+    border: 0;
+}
