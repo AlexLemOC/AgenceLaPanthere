@@ -105,15 +105,28 @@ Analytics END -->
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label for="radio input_504">
+						<label for="radioo-box">
 							Comment avez-vous entendu parlé de nous ?
 						</label>
-						<div class="radio-box" id="radio">
-							<input type="radio" name="known-how" id="radio" value="Publicité" onclick="hide()"> Publicité<br>
-							<input type="radio" name="known-how" id="radio" value="Bouche-oreille" onclick="hide()"> Le bouche à oreille<br>
-							<input type="radio" name="known-how" id="radio" value="Connaissance" onclick="hide()"> Par une connaissance<br>
-							<input class="radio-otherON" type="radio" id="radio" name="known-how" value="Autre" onclick="show()"> Autre<br>
+						<div class="radio-box" id="radioo-box">
+							<div class="labelInline">
+							<input type="radio" name="known-how" id="pub" value="Publicité" onclick="hide()">
+							<label for="pub"> Publicité</label>
+							</div>
+							<div class="labelInline">
+							<input type="radio" name="known-how" id="BaO" value="Bouche-oreille" onclick="hide()">
+							<label for="BaO"> Le bouche à oreille</label>
+							</div>
+							<div class="labelInline">
+							<input type="radio" name="known-how" id="cnsnc" value="Connaissance" onclick="hide()">
+							<label for="cnsnc"> Par une connaissance</label>
+							</div>
+							<div class="labelInline">
+							<input class="radio-otherON" type="radio" id="other" name="known-how" value="Autre" onclick="show()">
+							<label for="other"> Autre</label>
+							</div>
 							<input class="form-control hiding" type="text" required id="input_504" value="Précisez..."/>
+							<label for="input_504" class="cach"></label>
 						</div>
 					</div>
 					<div class="form-group">

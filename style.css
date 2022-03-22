@@ -1192,7 +1192,7 @@ h4 {
     #GoogleMap{
         padding-left: 70px;
         width: 600px;
-        height: 390px;
+        height: 400px;
     }
     .titlePan{
         text-align: center;
@@ -1291,4 +1291,17 @@ h4 {
 .titleProj{
     background-color: rgba(33, 33, 33, .1);
     border-radius: 20px;
+}
+
+.radio-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelInline{
+    display: inline;
+}
+
+.cach{
+    display: none;
 }
