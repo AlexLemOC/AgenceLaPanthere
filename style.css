@@ -1258,3 +1258,12 @@ h4 {
 #GoogleMap{
     border: 0;
 }
+
+.socialLogo{
+    width: 32px;
+    height: 32px;
+}
+
+.socialLogo:hover{
+    transform: scale(1.3);
+}
