@@ -821,7 +821,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #212121!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1085,7 +1085,7 @@ h4 {
 
 .d-btn{
     background-color: #F3976C;
-    color: white;
+    color: black;
     padding: 16px;
     font-size: 18px;
     border: none;
@@ -1130,6 +1130,8 @@ h4 {
 
 .ppage-title{
     font-size: 16px;
+    color: #000000!important;
+    font-weight: 600!important;
 }
 
 .folioPart2 {
@@ -1175,12 +1177,13 @@ h4 {
         align-items: center;
     }
     .partner{
-        color: white;
+        color: black;
         font-size: 18px;
         font-weight: 500;
     }
     .partnerLI{
         font-size: 16px;
+        color: #212121;
     }
     .adressTitle{
         padding-left: 70px;
@@ -1194,6 +1197,11 @@ h4 {
     .titlePan{
         text-align: center;
         width: 360px;
+        margin-left: 32%;
+    }
+    .titleProj{
+        text-align: center;
+        width: 400px;
         margin-left: 32%;
     }
 }
@@ -1252,14 +1260,12 @@ h4 {
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 30px;
-    text-decoration-line: underline;
 }
 
 .adressTitle {
     color: #000000;
     font-size: 18px;
     font-weight: 500;
-    text-decoration-line: underline;
 }
 
 #GoogleMap{
@@ -1276,6 +1282,11 @@ h4 {
 }
 
 .titlePan{
+    background-color: rgba(33, 33, 33, .1);
+    border-radius: 20px;
+}
+
+.titleProj{
     background-color: rgba(33, 33, 33, .1);
     border-radius: 20px;
 }
