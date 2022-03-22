@@ -1191,6 +1191,11 @@ h4 {
         width: 600px;
         height: 390px;
     }
+    .titlePan{
+        text-align: center;
+        width: 360px;
+        margin-left: 32%;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -1271,5 +1276,6 @@ h4 {
 }
 
 .titlePan{
-    background-color: rgba(0, 0, 0, .0);
+    background-color: rgba(33, 33, 33, .1);
+    border-radius: 20px;
 }
