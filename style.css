@@ -812,7 +812,7 @@ h4 {
 
 .tc-white {
     color: #f3976c!important;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 20px #000000;
 }
 
 .description {
@@ -1163,13 +1163,13 @@ h4 {
     }
     .P2H1{
         font-size: 46px;
-        color: white!important;
+        color: #1C1C1C!important;
         padding-bottom: 20px;
     }
     
     .P2H2{
         font-size: 30px;
-        color: white!important;
+        color: #1C1C1C!important;
     }
     .adresse{
         display: flex;
@@ -1209,12 +1209,12 @@ h4 {
 @media screen and (max-width: 1023px) {
     .P2H1{
         font-size: 20px;
-        color: white!important;
+        color: #1C1C1C!important;
     }
     
     .P2H2{
         font-size: 18px;
-        color: white!important;
+        color: #1C1C1C!important;
     }
     .adresse{
         font-size: 12px;
